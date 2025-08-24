@@ -29,5 +29,3 @@ Welcome to my **personal portfolio website**! This project showcases my skills, 
 Check out the website here: [https://www.khalilghanem.me](https://www.khalilghanem.me)  
 
 
-  App.js
-  index.js
