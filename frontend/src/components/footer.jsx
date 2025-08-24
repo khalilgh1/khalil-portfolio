@@ -1,10 +1,13 @@
+import logo from '../assets/logo.png';
 const Footer = (props) => {
     return (
         <footer className="py-12 bg-black/50 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="text-2xl font-bold text-red-500 mb-4">&lt;By_Khalil/&gt;</div>
+                                      <div className="text-2xl font-bold text-red-500">
+                                          <img src={logo} alt="By_Khalil" className="h-10 w-40 inline-block mr-2" />
+                                      </div>
               <p className="text-gray-400">
                 Transforming ideas into exceptional digital experiences through innovative technology solutions.
               </p>

@@ -42,7 +42,7 @@ const Navbar = (props) => {
                         {/* Mobile Menu Button */}
                         <button
                             onClick={() => props.setIsMenuOpen(!props.isMenuOpen)}
-                            className="md:hidden text-white hover:text-red-400 transition-colors z-60 relative"
+                            className="md:hidden text-white bg- hover:text-red-400 transition-colors z-60 relative"
                         >
                             {props.isMenuOpen ? <X size={24} /> : <Menu size={24} />}
                         </button>
@@ -71,7 +71,8 @@ const Navbar = (props) => {
                                 className="block text-white text-4xl w-50 font-light hover:text-red-400 transition-all duration-300 transform hover:scale-110 relative group"
                                 style={{ 
                                     animationDelay: `${index * 0.1}s`,
-                                    animation: props.isMenuOpen ? 'slideInUp 0.6s ease-out forwards' : 'none'
+                                    animation: props.isMenuOpen ? 'slideInUp 0.6s ease-out forwards' : 'none',
+                                    background:'transparent'
                                 }}
                             >
                                 {item}
@@ -85,6 +86,9 @@ const Navbar = (props) => {
                         <button
                             onClick={() => handleMenuItemClick('contact')}
                             className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-full text-white w-50 font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                            style={{
+                                background:'transparent',
+                            }}
                         >
                             Let's Work Together
                         </button>

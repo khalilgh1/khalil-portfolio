@@ -29,6 +29,7 @@ const About = (props) => {
                   src={pic}
                   alt="Professional developer"
                   className="rounded-lg shadow-2xl w-full h-[28rem] object-cover [object-position:50%_30%]"
+                  style={{ filter: 'grayscale(1)' }}
                 />
 
 

@@ -5,7 +5,7 @@ const Stats = (props) => {
         <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: 8, suffix: '+', label: 'Projects Completed' },
+              { number: 10, suffix: '+', label: 'Projects Completed' },
               { number: 500, suffix: '+', label: 'Coding Hours' },
               { number: 3, suffix: '+', label: 'Years Experience' },
               { number: 50, suffix: '+', label: 'Technologies & Tools Used ' }
